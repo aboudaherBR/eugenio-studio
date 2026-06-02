@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import profileImage from "../assets/profile.png"
 
 function EngineeringPhilosophy() {
     return (
@@ -39,15 +40,48 @@ function EngineeringPhilosophy() {
         "
             />
 
+            {/* Portrait */}
+            <div className="relative mb-10">
+                {/* Glow */}
+                <div
+                    className="
+                    absolute
+                    left-1/2
+                    top-1/2
+                    h-[220px]
+                    w-[220px]
+                    -translate-x-1/2
+                    -translate-y-1/2
+                    rounded-full
+                    bg-blue-500/10
+                    blur-[90px]
+    "
+                />
+
+                {/* Image */}
+                <img
+                    src={profileImage}
+                    alt="Eugenio Boudaher"
+                    className="
+                        relative
+                        z-10
+                        w-[300px]
+                        object-contain
+                        opacity-90
+                        grayscale
+    "
+                />
+            </div>
+
             {/* Label */}
             <div
                 className="
-          relative
-          mb-8
-          text-xs
-          tracking-[0.3em]
-          text-white/40
-        "
+                    relative
+                    mb-8
+                    text-xs
+                    tracking-[0.3em]
+                    text-white/40
+                "
             >
                 ENGINEERING PHILOSOPHY
             </div>
@@ -55,15 +89,15 @@ function EngineeringPhilosophy() {
             {/* Headline */}
             <h2
                 className="
-          relative
-          max-w-[1000px]
-          text-balance
-          font-black
-          leading-[0.95]
-          tracking-tight
-          text-white
-          text-[clamp(2.5rem,6vw,5.5rem)]
-        "
+                    relative
+                    max-w-[1000px]
+                    text-balance
+                    font-black
+                    leading-[0.95]
+                    tracking-tight
+                    text-white
+                    text-[clamp(2.5rem,6vw,5.5rem)]
+                "
             >
                 Software is ultimately
                 <br />
