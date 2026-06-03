@@ -7,7 +7,7 @@ function FinalCTA() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{
-                duration: 1.2,
+                duration: 1.4,
                 ease: [0.22, 1, 0.36, 1],
             }}
             className="
@@ -30,7 +30,7 @@ function FinalCTA() {
                 -translate-x-1/2
                 -translate-y-1/2
                 rounded-full
-                bg-blue-500/5
+                bg-blue-500/8
                 blur-[140px]
             "/>
 
@@ -93,7 +93,8 @@ function FinalCTA() {
                             backdrop-blur-xl
                             transition-all
                             duration-300
-                            hover:bg-white/[0.08]
+                            hover:bg-white/[0.08]                            
+                            hover:border-white/20
                         "
                     >
                         GitHub
@@ -114,7 +115,8 @@ function FinalCTA() {
                             backdrop-blur-xl
                             transition-all
                             duration-300
-                            hover:bg-white/[0.08]
+                            hover:bg-white/[0.08]                            
+                            hover:border-white/20
                             "
                     >
                         LinkedIn
@@ -135,6 +137,7 @@ function FinalCTA() {
                             transition-all
                             duration-300
                             hover:bg-white/[0.08]
+                            hover:border-white/20
                         "
                     >
                         Email
@@ -155,6 +158,7 @@ function FinalCTA() {
                             transition-all
                             duration-300
                             hover:bg-white/[0.08]
+                            hover:border-white/20
                         "
                     >
                         WhatsApp

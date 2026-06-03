@@ -115,7 +115,8 @@ function HeroSection() {
             text-black
             transition-all
             duration-300
-            hover:scale-[1.02]
+            hover:scale-[1.015]
+            hover:bg-white/90
           "
         >
           Live Demo
@@ -339,7 +340,7 @@ function HeroSection() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="hidden gap-4 sm:grid sm:grid-cols-2">
                   <div
                     className="
                         rounded-[24px]

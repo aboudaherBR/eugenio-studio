@@ -35,7 +35,7 @@ function EngineeringPhilosophy() {
           -translate-x-1/2
           -translate-y-1/2
           rounded-full
-          bg-blue-500/5
+          bg-blue-500/7
           blur-[120px]
         "
             />

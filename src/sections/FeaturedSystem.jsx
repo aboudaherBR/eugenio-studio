@@ -111,7 +111,7 @@ function FeaturedSystem() {
       </div>
 
       {/* Right Mockup */}
-      <div className="relative flex-1">
+      <div className="relative flex-1 scale-[0.78] sm:scale-[0.9] lg:scale-100">
         {/* Glow */}
         <div
           className="

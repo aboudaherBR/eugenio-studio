@@ -28,7 +28,7 @@ function EngineeringLog() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{
-                duration: 1.2,
+                duration: 1.4,
                 ease: [0.22, 1, 0.36, 1],
             }}
             className="
@@ -109,7 +109,7 @@ function EngineeringLog() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{
-                                duration: 1,
+                                duration: 1.4,
                                 delay: index * 0.1,
                             }}
                             className="relative flex gap-8"
@@ -159,9 +159,10 @@ function EngineeringLog() {
 
                                 <h3
                                     className="
-                                    text-2xl
+                                    text-[clamp(1.6rem,2vw,2rem)]
                                     font-semibold
-                                    tracking-tight
+                                    leading-tight
+                                    tracking-[-0.03em]
                                     text-white
                                     "
                                 >
@@ -174,7 +175,7 @@ function EngineeringLog() {
                                     max-w-[700px]
                                     text-base
                                     leading-relaxed
-                                    text-white/60
+                                    text-white/50
                                     "
                                 >
                                     {item.description}
