@@ -40,14 +40,20 @@ function Navbar() {
             text-white/60
           "
         >
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Stack</a>
-          <a href="#">Contact</a>
+          <a href="#philosophy">Philosophy</a>
+          <a href="#featured-system">Platform</a>
+          <a href="#engineering-log">Build Log</a>
+          <a href="#cta">Contact</a>
         </div>
 
-        <button
+        <a
+          href="https://www.linkedin.com/in/eugenio-boudaher"
+          target="_blank"
+          rel="noopener noreferrer"
           className="
+            inline-flex
+            items-center
+            justify-center
             rounded-xl
             border
             border-white/10
@@ -60,12 +66,13 @@ function Navbar() {
             transition-all
             duration-300
             hover:bg-white/20
+            hover:border-white/20
             md:px-4
             md:py-2
           "
         >
-          GitHub
-        </button>
+          LinkedIn
+        </a>
       </nav>
     </header>
   )

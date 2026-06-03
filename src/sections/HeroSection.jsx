@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 function HeroSection() {
   return (
     <section
+      id="hero"
       className="
         relative
         flex
