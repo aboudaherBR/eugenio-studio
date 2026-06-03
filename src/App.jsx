@@ -2,6 +2,8 @@ import Navbar from "./components/layout/Navbar"
 import HeroSection from "./sections/HeroSection"
 import EngineeringPhilosophy from "./sections/EngineeringPhilosophy"
 import FeaturedSystem from "./sections/FeaturedSystem"
+import EngineeringLog from "./sections/EngineeringLog"
+import FinalCTA from "./sections/FinalCTA"
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <EngineeringPhilosophy />
-      <FeaturedSystem />
+      <FeaturedSystem />    
+      <EngineeringLog />
+      <FinalCTA />
     </main>
   )
 }
