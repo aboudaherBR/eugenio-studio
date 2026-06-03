@@ -104,25 +104,32 @@ function HeroSection() {
           gap-4
         "
       >
-        <button
+        <a
+          href="https://barber-shop-indol-three.vercel.app"
           className="
+            inline-flex
+            items-center
+            justify-center
             rounded-2xl
             bg-white
             px-6  
             py-3
             text-sm
             font-semibold
-            text-black
+            !text-black
             transition-all
             duration-300
             hover:scale-[1.015]
             hover:bg-white/90
           "
         >
-          Live Demo
-        </button>
+          Launch Platform
+        </a>
 
-        <button
+        <a
+          href="https://github.com/aboudaherBR"
+          target="_blank"
+          rel="noopener noreferrer"
           className="
             rounded-2xl
             border
@@ -140,8 +147,30 @@ function HeroSection() {
           "
         >
           GitHub
-        </button>
+        </a>
       </div>
+
+      <p
+        className="
+            mt-4
+            text-sm
+            tracking-wide
+            text-white/40
+          "
+      >
+        Demo credentials available for product exploration.
+        Name: [admin] Password: [123]
+      </p>
+      <p
+        className="
+            mt-4
+            text-sm
+            tracking-wide
+            text-white/40
+          "
+      >
+        Name: [admin] Password: [123]
+      </p>
 
       {/* Cinematic Mockup */}
       <motion.div
