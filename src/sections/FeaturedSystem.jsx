@@ -18,7 +18,7 @@ function FeaturedSystem() {
         flex-col
         gap-16
         px-6
-        pt-12 pb-32
+        pt-20 pb-32
         md:px-10
         lg:flex-row
         lg:items-center

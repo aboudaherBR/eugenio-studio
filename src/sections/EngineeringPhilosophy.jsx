@@ -12,7 +12,7 @@ function EngineeringPhilosophy() {
                 flex-col
                 items-center
                 px-6
-                py-32
+                pt-40 pb-32
                 text-center
                 md:px-10
             "
