@@ -80,7 +80,7 @@ function FinalCTA() {
                      "
                 >
                     <a
-                        href="https://github.com/"
+                        href="https://github.com/aboudaherBR"
                         target="_blank"
                         className="
                             rounded-full
@@ -102,7 +102,7 @@ function FinalCTA() {
                     </a>
 
                     <a
-                        href="https://linkedin.com/"
+                        href="https://www.linkedin.com/in/eugenio-boudaher"
                         target="_blank"
                         className="
                             rounded-full
@@ -124,7 +124,7 @@ function FinalCTA() {
                     </a>
 
                     <a
-                        href="mailto:your@email.com"
+                        href="mailto:eugeniopython@gmail.com"
                         className="
                             rounded-full
                             border
